@@ -1,0 +1,128 @@
+[
+  {
+    "id": "q001",
+    "type": "multiple-choice",
+    "question": "Which programming paradigm does JavaScript primarily support?",
+    "options": [
+      "Procedural programming only",
+      "Object-oriented programming only",
+      "Functional programming only",
+      "Multiple paradigms including procedural, object-oriented, and functional"
+    ],
+    "correctAnswer": "Multiple paradigms including procedural, object-oriented, and functional",
+    "explanation": "JavaScript is a multi-paradigm language that supports procedural, object-oriented, and functional programming styles.",
+    "category": "JavaScript",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q002",
+    "type": "fill-in-blank",
+    "question": "In React, you use the ______ hook to manage side effects in functional components.",
+    "correctAnswer": ["useEffect"],
+    "explanation": "The useEffect hook in React is used to perform side effects in functional components, similar to componentDidMount, componentDidUpdate, and componentWillUnmount in class components.",
+    "category": "React",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q003",
+    "type": "multiple-choice",
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Standard Query Language",
+      "System Query Language"
+    ],
+    "correctAnswer": "Structured Query Language",
+    "explanation": "SQL stands for Structured Query Language, which is a domain-specific language used for managing and manipulating relational databases.",
+    "category": "Databases",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q004",
+    "type": "multiple-choice",
+    "question": "Which of the following is NOT a valid HTTP method?",
+    "options": [
+      "GET",
+      "POST",
+      "DELETE",
+      "FETCH"
+    ],
+    "correctAnswer": "FETCH",
+    "explanation": "FETCH is not a valid HTTP method. The standard HTTP methods include GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS, and CONNECT.",
+    "category": "Web",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q005",
+    "type": "fill-in-blank",
+    "question": "The ______ data structure follows the Last-In-First-Out (LIFO) principle.",
+    "correctAnswer": ["stack"],
+    "explanation": "A stack is a data structure that follows the Last-In-First-Out (LIFO) principle, meaning the last element added is the first one to be removed.",
+    "category": "Data Structures",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q006",
+    "type": "multiple-choice",
+    "question": "Which of the following is a statically typed programming language?",
+    "options": [
+      "JavaScript",
+      "Python",
+      "Ruby",
+      "Java"
+    ],
+    "correctAnswer": "Java",
+    "explanation": "Java is a statically typed language, meaning type checking is done at compile-time. JavaScript, Python, and Ruby are dynamically typed languages.",
+    "category": "Programming Languages",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q007",
+    "type": "fill-in-blank",
+    "question": "In Python, you use the ______ keyword to define a function.",
+    "correctAnswer": ["def"],
+    "explanation": "In Python, functions are defined using the 'def' keyword followed by the function name and parameters.",
+    "category": "Python",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q008",
+    "type": "multiple-choice",
+    "question": "What is the time complexity of binary search?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "correctAnswer": "O(log n)",
+    "explanation": "Binary search has a time complexity of O(log n) because it divides the search interval in half with each iteration.",
+    "category": "Algorithms",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q009",
+    "type": "multiple-choice",
+    "question": "Which CSS property is used to change the text color?",
+    "options": [
+      "text-color",
+      "font-color",
+      "color",
+      "text-style"
+    ],
+    "correctAnswer": "color",
+    "explanation": "In CSS, the 'color' property is used to specify the color of text content.",
+    "category": "CSS",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q010",
+    "type": "fill-in-blank",
+    "question": "The ______ pattern in software design allows an object to alter its behavior when its internal state changes.",
+    "correctAnswer": ["state"],
+    "explanation": "The State pattern allows an object to change its behavior when its internal state changes, making it appear as if the object changed its class.",
+    "category": "Design Patterns",
+    "difficulty": "hard"
+  }
+]
